@@ -1,0 +1,17 @@
+//
+//  main.m
+//  DevilsDictionary
+//
+//  Created by Collin on 3/16/09.
+//  Copyright Nimble Technique, LLC 2009. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+int main(int argc, char *argv[]) {
+    
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
+    int retVal = UIApplicationMain(argc, argv, nil, nil);
+    [pool release];
+    return retVal;
+}
